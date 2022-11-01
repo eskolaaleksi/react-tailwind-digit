@@ -1,6 +1,4 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import ProductCard from './components/ProductCard';
 
@@ -14,8 +12,8 @@ const Home: NextPage = () => {
 
   return (
     <div className="">
-      {products.map((product) => (
-        <ProductCard product={product} />
+      {products.map((product, index) => (
+        <ProductCard product={product} key={index} />
       ))}
     </div>
   );
