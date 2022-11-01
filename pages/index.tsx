@@ -13,10 +13,10 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-wrap bg-blue-light dark:bg-gray-800">
-        {products.map((product) => (
-          <ProductCard product={product} />
-        ))}
+    <div className="">
+      {products.map((product) => (
+        <ProductCard product={product} />
+      ))}
     </div>
   );
 };
