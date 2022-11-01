@@ -11,7 +11,7 @@ function Product({
           ></div>
         </div>
         <div className="w-2/3 p-5 overflow-hidden">
-          <h1 className="md:text-2xl">{title.substr(0, 50)}</h1>
+          <h1 className="text-2xl">{title.substr(0, 50)}</h1>
           <h3 className="text-blue dark:text-gray-700">{category}</h3>
           <p className="text-blue-shock mt-4 text-xl md:text-4xl">{price}$</p>
           <div className="mt-4">{description.substr(0, 100)}</div>
