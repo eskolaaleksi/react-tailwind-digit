@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-wrap bg-blue-light ">
+    <div className="flex flex-wrap">
       <div className="w-full text-center text-4xl p-4 bg-blue">
         Aleksin nettikauppa
       </div>
